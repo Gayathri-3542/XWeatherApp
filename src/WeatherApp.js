@@ -45,7 +45,7 @@ export default function WeatherApp() {
         onChange={(e) => setCity(e.target.value)}
         style={{ padding: "8px", marginRight: "10px" }}
       />
-      <button onClick={fetchWeather}style={{width:"100px", height:"34px"}}>Search</button>
+      <button onClick={fetchWeather}style={{width:"100px", height:"34px",background:"rgba(4, 170, 109, 1)"}}>Search</button>
 
       {/* Loading Message */}
       {loading && <p>Loading data...</p>}
